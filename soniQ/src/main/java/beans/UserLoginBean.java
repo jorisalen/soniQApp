@@ -38,7 +38,7 @@ public class UserLoginBean implements Serializable{
 	     if(naam.equals("admin") && pw.equals("joris")){
 	    	 return "succes!";
 	     } else {
-	    	 return "fail";
+	    	 return "loser";
 	     }
 	 }
 	
