@@ -1,0 +1,99 @@
+* {
+   margin: 0px;
+   padding: 0px;
+}
+body,html {
+	background-color: #FBFFE1;
+	margin: 0;
+	padding:0;
+	height:100%;
+}
+
+#header {
+	background-color: #090F00;
+	height: 50px;
+}
+
+#header img{
+	margin-left:5px;
+	width: 150px;
+	position: absolute;
+}
+
+#content {
+	height:100%;
+	width:100%;
+}
+#result{
+	position:absolute;
+	height:100%;
+	width: 60%;
+	border-style:solid;
+	border-color:#000000;
+	border-width:1px;
+	background-color: #FFFFFF;;
+}
+
+#playlist{
+	height:60%;
+	background-color: #EFF7DC;
+	border-bottom-style:solid;
+	border-bottom-color:#919685;
+	border-bottom-width:1px;
+}
+#searchHeader{
+	width:30%;
+	float: left;
+	margin: 0 auto;
+	top: 28%;
+	padding-left: 165px;
+	position: relative;
+	height:3%;
+}
+
+
+#login {
+	max-width:50%;
+	float: right;
+	margin: 0 auto;
+	top: 28%;
+	position: relative;
+	padding-right: 1%;
+	font-family: arial;
+	text-decoration: underline;
+	font-size: 80%;
+}
+
+#search{
+	width:85%;
+}
+
+a:hover{
+	color:#CC9900;
+}
+
+#header input{
+	margin-left: 3px;
+}
+ul{
+	text-align: center;
+	font-family: arial;
+}
+
+li{
+	display:inline;
+	margin-right: 4%;
+}
+
+a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#footer{
+   position:fixed;
+   background-color:#21261B;
+   bottom:0;
+   height: 1.5em;
+   width:100%;
+}
